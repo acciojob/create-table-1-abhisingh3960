@@ -2,7 +2,7 @@ function insert_Row() {
    
     let table = document.getElementById('sampleTable');
 
-    let Row = table.insertRow(0);
+    let Row = table.insertRow(-1);
 
     // Insert new cells in the new row (2 cells)
     let cell1 = Row.insertCell(0);
